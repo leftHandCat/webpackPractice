@@ -1,0 +1,12 @@
+
+@font-face{
+	font-family: secret;
+	src: url("../fonts/SECRET.ttf") format('truetype');
+}
+
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: secret;
+}
