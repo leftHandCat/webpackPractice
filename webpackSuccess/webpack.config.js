@@ -56,7 +56,7 @@ module.exports = {
           }
         },
         {
-          test: /\.(jpg|png|gif|svg)/,
+          test: /\.(jpg|png|gif|svg|eot)/,
           use:[
            // {loader: 'file-loader?name=asset.[ext]'},  file-loader 表示相对于当前执行 webpack 命令的目录的相对路径，可以不用
             {loader: 'img-loader'},
